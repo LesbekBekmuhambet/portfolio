@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link href="https://fonts.googleapis.com/css2?family=Monda&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+  <title>GoHike</title>
+</head>
+<body>
+
+
+  <!-- Home -->
+  <header class="header">
+    <div class="container">
+      <div class="header_inner">
+        <div class="header_logo"><a style="text-decoration:none; color:black" href="index2.html">GoHike</a></div>
+
+        <nav class="nav" id="nav">
+          <a class="nav_link"  href="about.html">About us</a>
+          <a class="nav_link"  href="costs.html">Our Costs</a>
+          <a id="toreg" class="nav_link" href="services.html">Services</a>
+          <a class="nav_link" href="contact.html">Contact</a>
+        </nav>
+        <div class="LoginButton">
+          <button type="button" onclick="window.location.href='login.html'" id="LoginButton" >Login</button>
+        </div>
+        <div class="menu_img" onclick=menuClick() >
+        <img src="assets/images/menu.png" alt="">
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="nav_mobile" >
+  <nav class="nav_mobile" id="nav_mobile">
+    <a class="nav_link_mobile"  href="about.html">About us</a>
+    <a class="nav_link_mobile"  href="costs.html">Our Costs</a>
+    <a id="toreg" class="nav_link_mobile" href="services.html">Services</a>
+    <a class="nav_link_mobile" href="contact.html">Contact</a>
+  </nav>
+</div>
+
+<div class="services__before" id="servicesreg">
+  <div class="services__text-before">
+    <p class="text__before">To get this page you need to first <a onclick="window.location.href='login.html'" href="#">authorizate</a> </p>
+  </div>
+</div>
+
+
+<!-- Services -->
+<div class="services" id="services">
+    <div class="container">
+      <div class="services_list">
+        <ul id="main_list">
+          <li> SKI MAINTENANCE<a class="services_plus" href="#">+</a>
+            <ul>
+              <li>
+                Sharpening the base and side edges
+                <p class="services_costs">2 500tg</p>
+              </li><hr>
+              <li>
+                Paraffin wax sliding surface
+                <p class="services_costs">2 500tg</p>
+              </li><hr>
+              <li>
+                Teflon sliding surface (anti-scratch)
+                <p class="services_costs">2 500tg</p>
+              </li><hr>
+            </ul>
+          </li><hr>
+          <li>SNOWBOARD MAINTENANCE<a class="services_plus" href="#">+</a>
+            <ul>
+              <li>
+                Sharpening the base and side edges
+                <p class="services_costs">2 500tg</p>
+              </li><hr>
+              <li>
+                Paraffin wax sliding surface
+                <p class="services_costs">2 500tg</p>
+              </li><hr>
+              <li>
+                Teflon sliding surface (anti-scratch)
+                <p class="services_costs">2 500tg</p>
+              </li><hr>
+            </ul>
+          </li><hr>
+          <li> COMPREHENSIVE SERVICE<a class="services_plus" href="#">+</a>
+            <ul>
+              <li>
+                Sharpening the base and side edges
+                <p class="services_costs">2 500tg</p>
+              </li><hr>
+              <li>
+                Paraffin wax sliding surface
+                <p class="services_costs">2 500tg</p>
+              </li><hr>
+              <li>
+                Teflon sliding surface (anti-scratch)
+                <p class="services_costs">2 500tg</p>
+              </li><hr>
+            </ul>
+          </li><hr>
+          <li>SKATE MAINTENANCE<a class="services_plus" href="#">+</a>
+            <ul>
+              <li>
+                Sharpening the base and side edges
+                <p class="services_costs">2 500tg</p>
+              </li><hr>
+              <li>
+                Paraffin wax sliding surface
+                <p class="services_costs">2 500tg</p>
+              </li><hr>
+              <li>
+                Teflon sliding surface (anti-scratch)
+                <p class="services_costs">2 500tg</p>
+              </li><hr>
+            </ul>
+          </li><hr>
+          <li>Small and non-standard works<a class="services_plus" href="#">+</a>
+            <ul>
+              <li>
+                Sharpening the base and side edges
+                <p class="services_costs">2 500tg</p>
+              </li><hr>
+              <li>
+                Paraffin wax sliding surface
+                <p class="services_costs">2 500tg</p>
+              </li><hr>
+              <li>
+                Teflon sliding surface (anti-scratch)
+                <p class="services_costs">2 500tg</p>
+              </li><hr>
+            </ul>
+          </li><hr>
+        </ul>
+      </div>
+     </div>
+</div>
+
+
+
+
+
+
+
+
+<!-- Footer -->
+    <footer class="footer" id='footer'>
+      <hr>
+        <div class="container">
+
+           <div class="footer__inner">
+                  <div class="footer__copyright">
+                      &copy; 2022 - GoHike
+                  </div>
+
+
+               <nav class="footer__nav">
+                   <a class="footer__nav-link" href="#">About us</a>
+                   <a class="footer__nav-link" href="#">Our Costs</a>
+                   <a class="footer__nav-link" href="#">Services</a>
+                   <a class="footer__nav-link" href="#">Contact</a>
+               </nav>
+           </div>
+
+        </div>
+    </footer>
+
+
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+
+
+
+<script>
+  function menuClick() {
+    if (document.getElementById("nav_mobile").style.display=="none") {
+      document.getElementById("nav_mobile").style.display="block"
+    }
+    else {
+      document.getElementById("nav_mobile").style.display="none"
+    }
+  }
+</script>
+
+<!-- Services animation -->
+<script>
+$(document).ready(function(){
+  initMenu();
+});
+
+function initMenu() {
+
+$('#main_list ul').hide();
+$('#main_list li a').click(
+  function() {
+  var iselemnt = $(this).next();
+  if((iselemnt.is('ul')) && (iselemnt.is(':visible'))) {
+    iselemnt.slideUp('normal');
+  }
+  if((iselemnt.is('ul')) && (!iselemnt.is(':visible'))) {
+  $('#main_list ul:visible').slideUp('normal');
+  iselemnt.slideDown('normal');
+  }
+  }
+);
+}
+</script>
+
+<script >
+  let id=localStorage.getItem("logged");
+  if (id==-1) {
+    document.getElementById("services").style.display="none";
+    document.getElementById("servicesreg").style.display="block";
+  }else {
+      document.getElementById("services").style.display="block";
+      document.getElementById("servicesreg").style.display="none";
+  }
+</script>
+
+</body>
+</html>
