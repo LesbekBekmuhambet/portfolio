@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link href="https://fonts.googleapis.com/css2?family=Monda&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+  <title>GoHike</title>
+</head>
+<body>
+
+  <!-- Home -->
+  <header class="header">
+    <div class="container">
+      <div class="header_inner">
+        <div class="header_logo"><a style="text-decoration:none; color:black" href="index2.html">GoHike</a></div>
+
+        <nav class="nav" id="nav">
+          <a class="nav_link"  href="about.html">About us</a>
+          <a class="nav_link"  href="costs.html">Our Costs</a>
+          <a id="toreg" class="nav_link" href="services.html">Services</a>
+          <a class="nav_link" href="contact.html">Contact</a>
+        </nav>
+        <div class="LoginButton">
+          <button type="button" onclick="window.location.href='login.html'" id="LoginButton" >Login</button>
+        </div>
+        <div class="menu_img" onclick=menuClick() >
+        <img src="assets/images/menu.png" alt="">
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="nav_mobile" >
+  <nav class="nav_mobile" id="nav_mobile">
+    <a class="nav_link_mobile"  href="about.html">About us</a>
+    <a class="nav_link_mobile"  href="costs.html">Our Costs</a>
+    <a id="toreg" class="nav_link_mobile" href="services.html">Services</a>
+    <a class="nav_link_mobile" href="contact.html">Contact</a>
+  </nav>
+</div>
+
+
+<!-- Our_Costs -->
+<div class="costs" id="costs">
+    <div class="container">
+
+       <div class="costs__header">
+        <h2 class="costs__title">Our Costs</h2>
+      </div>
+
+      <div class="costs_table">
+        <table class="table_costs">
+          <tr class="th">
+            <td rowspan="2"> <h2 class="table_title">Equipment</h2> <br><h3>Standard</h3> </td>
+            <td colspan="2"><h2 class="table_title">Weekdays</h2></td>
+            <td colspan="2"><h2 class="table_title">Weekends</h2></td>
+          </tr>
+          <tr>
+            <td><h3>Day/Night(10hours)</h3></td>
+            <td><h3>One day(24hours)</h3></td>
+            <td><h3>Day/Night(10hours)</h3></td>
+            <td><h3>One day(24hours)</h3></td>
+          </tr>
+          <tr>
+            <td>Snowboard</td>
+            <td>3000</td>
+            <td>4000</td>
+            <td>3500</td>
+            <td>4000</td>
+          </tr>
+          <tr>
+            <td>Skis + poles</td>
+            <td>3000</td>
+            <td>4000</td>
+            <td>3500</td>
+            <td>4000</td>
+          </tr>
+          <tr>
+            <td>Boots</td>
+            <td>3000</td>
+            <td>3500</td>
+            <td>3500</td>
+            <td>5000</td>
+          </tr>
+          <tr>
+            <td>Pants</td>
+            <td>2500</td>
+            <td>2500</td>
+            <td>3000</td>
+            <td>3500</td>
+          </tr>
+          <tr>
+            <td>Jacket</td>
+            <td>2000</td>
+            <td>2000</td>
+            <td>2500</td>
+            <td>3000</td>
+          </tr>
+          <tr>
+            <td>Helmet</td>
+            <td>1500</td>
+            <td>2000</td>
+            <td>1500</td>
+            <td>2000</td>
+          </tr>
+          <tr>
+            <td>Glasses</td>
+            <td>1000</td>
+            <td>1500</td>
+            <td>1000</td>
+            <td>1500</td>
+          </tr>
+
+        </table>
+      </div>
+    </div>
+</div>
+
+
+<!-- Footer -->
+    <footer class="footer" id='footer'>
+      <hr>
+        <div class="container">
+
+           <div class="footer__inner">
+                  <div class="footer__copyright">
+                      &copy; 2022 - GoHike
+                  </div>
+
+
+               <nav class="footer__nav">
+                   <a class="footer__nav-link" href="#">About us</a>
+                   <a class="footer__nav-link" href="#">Our Costs</a>
+                   <a class="footer__nav-link" href="#">Services</a>
+                   <a class="footer__nav-link" href="#">Contact</a>
+               </nav>
+           </div>
+
+        </div>
+    </footer>
+
+
+
+
+<script>
+  function menuClick() {
+    if (document.getElementById("nav_mobile").style.display=="none") {
+      document.getElementById("nav_mobile").style.display="block"
+    }
+    else {
+      document.getElementById("nav_mobile").style.display="none"
+    }
+  }
+</script>
+
+
+
+
+
+</body>
+</html>
